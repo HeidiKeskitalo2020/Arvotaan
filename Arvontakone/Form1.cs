@@ -29,6 +29,7 @@ namespace Arvontakone
                 //MessageBox.Show(ofd.SafeFileName);
                 //OpenFile.Text = Ofd.SafeFileName;
                 textBox1.Text = System.IO.File.ReadAllText(Ofd.FileName);
+                
             }
         }
 
@@ -50,7 +51,6 @@ namespace Arvontakone
                         pick[i] = number;
                     }
                     textBox3.Text = (number.ToString());
-                    //textBox3.Text = textBox2.Text;
                 }
             }
 
@@ -62,7 +62,11 @@ namespace Arvontakone
                 ////StreamWriter writer = new StreamWriter(@"C:\Arvonta\Arvonta.txt");
                 ////string name = sr.ReadLine();
 
+
                 //string filePath = @"C:\Arvonta\Arvonta.txt";
+                string list = textBox1.Text;
+                string[] vinName = list.Trim().Split('\n');
+                textBox3.Text = vinName[new Random().Next(0, vinName.Length)];
 
                 //List<string> lines = File.ReadAllLines(filePath).ToList();
 

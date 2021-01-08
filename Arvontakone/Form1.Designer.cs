@@ -46,12 +46,12 @@ namespace Arvontakone
             this.radioButton4 = new System.Windows.Forms.RadioButton();
             this.button3 = new System.Windows.Forms.Button();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.label2 = new System.Windows.Forms.Label();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
             this.radioButton7 = new System.Windows.Forms.RadioButton();
             this.textBox6 = new System.Windows.Forms.TextBox();
             this.radioButton8 = new System.Windows.Forms.RadioButton();
             this.button5 = new System.Windows.Forms.Button();
-            this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -65,10 +65,10 @@ namespace Arvontakone
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(676, 75);
+            this.textBox1.Location = new System.Drawing.Point(604, 42);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(74, 62);
+            this.textBox1.Size = new System.Drawing.Size(153, 93);
             this.textBox1.TabIndex = 0;
             // 
             // Button1
@@ -107,7 +107,6 @@ namespace Arvontakone
             this.radioButton2.TabStop = true;
             this.radioButton2.Text = "Osallistujien määrän mukaan";
             this.radioButton2.UseVisualStyleBackColor = true;
-            //this.radioButton2.CheckedChanged += new System.EventHandler(this.radioButton2_CheckedChanged);
             // 
             // textBox2
             // 
@@ -238,6 +237,16 @@ namespace Arvontakone
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Suorita arvonta";
             // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Arial", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(491, 43);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(108, 23);
+            this.label2.TabIndex = 10;
+            this.label2.Text = "Voittaja on:";
+            // 
             // groupBox4
             // 
             this.groupBox4.Controls.Add(this.radioButton7);
@@ -294,16 +303,6 @@ namespace Arvontakone
             this.button5.TabIndex = 1;
             this.button5.Text = "Etsi tiedosto";
             this.button5.UseVisualStyleBackColor = false;
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Arial", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(491, 43);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(108, 23);
-            this.label2.TabIndex = 10;
-            this.label2.Text = "Voittaja on:";
             // 
             // label3
             // 
