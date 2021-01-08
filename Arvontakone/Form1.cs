@@ -26,10 +26,7 @@ namespace Arvontakone
             Ofd.Filter = "*TXT|*.txt";
             if (Ofd.ShowDialog() == DialogResult.OK)
             {
-                //MessageBox.Show(ofd.SafeFileName);
-                //OpenFile.Text = Ofd.SafeFileName;
                 textBox1.Text = System.IO.File.ReadAllText(Ofd.FileName);
-                
             }
         }
 
@@ -56,43 +53,12 @@ namespace Arvontakone
 
             else if (radioButton1.Checked)
             {
-                //var vinName = new WebClient().DownloadString("https://pastebin.com/raw/abWpS6yJ").Split('\n');
-                //textBox3.Text = vinName[new Random().Next(0, vinName.Length)];
-                //StreamReader sr = new StreamReader(@"C:\Arvonta\Arvonta.txt");
-                ////StreamWriter writer = new StreamWriter(@"C:\Arvonta\Arvonta.txt");
-                ////string name = sr.ReadLine();
-
-
-                //string filePath = @"C:\Arvonta\Arvonta.txt";
                 string list = textBox1.Text;
                 string[] vinName = list.Trim().Split('\n');
                 textBox3.Text = vinName[new Random().Next(0, vinName.Length)];
-
-                //List<string> lines = File.ReadAllLines(filePath).ToList();
-
-                ////var line_number = 0;
-
-                ////foreach (var line in lines)
-                ////{
-                ////    line_number++;
-
-                ////    string[] entries = line.Trim().Split('\n');
-
-                ////    if (entries.Length == 1 && entries[0] == "")
-                ////    {
-                ////        continue;
-                ////    }
-
-                //Random vinName = new Random();
-
-
-                //{
-                //    string indexOpenfile = vinName.Next(textBox1.Length);
-                //    this.textBox1.Text = textBox1[indexOpenfile];
-                //}
             }
-        }
-        }
+        }   
     }
+}
 
 
