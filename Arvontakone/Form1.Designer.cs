@@ -52,6 +52,7 @@ namespace Arvontakone
             this.radioButton8 = new System.Windows.Forms.RadioButton();
             this.button5 = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -64,10 +65,10 @@ namespace Arvontakone
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(526, 183);
+            this.textBox1.Location = new System.Drawing.Point(676, 75);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(170, 62);
+            this.textBox1.Size = new System.Drawing.Size(74, 62);
             this.textBox1.TabIndex = 0;
             // 
             // Button1
@@ -75,7 +76,7 @@ namespace Arvontakone
             this.Button1.BackColor = System.Drawing.Color.DeepPink;
             this.Button1.Font = new System.Drawing.Font("Arial", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Button1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.Button1.Location = new System.Drawing.Point(285, 45);
+            this.Button1.Location = new System.Drawing.Point(417, 42);
             this.Button1.Name = "Button1";
             this.Button1.Size = new System.Drawing.Size(167, 42);
             this.Button1.TabIndex = 1;
@@ -87,7 +88,7 @@ namespace Arvontakone
             // 
             this.radioButton1.AutoSize = true;
             this.radioButton1.ForeColor = System.Drawing.Color.DeepPink;
-            this.radioButton1.Location = new System.Drawing.Point(23, 53);
+            this.radioButton1.Location = new System.Drawing.Point(140, 53);
             this.radioButton1.Name = "radioButton1";
             this.radioButton1.Size = new System.Drawing.Size(226, 24);
             this.radioButton1.TabIndex = 2;
@@ -99,7 +100,7 @@ namespace Arvontakone
             // 
             this.radioButton2.AutoSize = true;
             this.radioButton2.ForeColor = System.Drawing.Color.DeepPink;
-            this.radioButton2.Location = new System.Drawing.Point(23, 111);
+            this.radioButton2.Location = new System.Drawing.Point(140, 109);
             this.radioButton2.Name = "radioButton2";
             this.radioButton2.Size = new System.Drawing.Size(237, 24);
             this.radioButton2.TabIndex = 3;
@@ -110,7 +111,7 @@ namespace Arvontakone
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(285, 111);
+            this.textBox2.Location = new System.Drawing.Point(417, 109);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(167, 26);
             this.textBox2.TabIndex = 4;
@@ -121,7 +122,7 @@ namespace Arvontakone
             this.Button2.BackColor = System.Drawing.Color.DeepPink;
             this.Button2.Font = new System.Drawing.Font("Arial", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Button2.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.Button2.Location = new System.Drawing.Point(186, 43);
+            this.Button2.Location = new System.Drawing.Point(121, 43);
             this.Button2.Name = "Button2";
             this.Button2.Size = new System.Drawing.Size(181, 64);
             this.Button2.TabIndex = 5;
@@ -133,33 +134,34 @@ namespace Arvontakone
             // 
             this.textBox3.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox3.ForeColor = System.Drawing.Color.DeepPink;
-            this.textBox3.Location = new System.Drawing.Point(412, 69);
+            this.textBox3.Location = new System.Drawing.Point(342, 69);
             this.textBox3.Multiline = true;
             this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(198, 38);
+            this.textBox3.Size = new System.Drawing.Size(408, 38);
             this.textBox3.TabIndex = 6;
             this.textBox3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Arial", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.DeepPink;
-            this.label1.Location = new System.Drawing.Point(53, 31);
+            this.label1.Location = new System.Drawing.Point(306, 38);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(690, 58);
+            this.label1.Size = new System.Drawing.Size(174, 37);
             this.label1.TabIndex = 7;
-            this.label1.Text = "Arvotaan! \r\nValitse nimen mukaan tai osallistuja märän mukaan ja arvo.";
+            this.label1.Text = "Arvotaan! \r\n";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // groupBox1
             // 
             this.groupBox1.Controls.Add(this.radioButton2);
             this.groupBox1.Controls.Add(this.textBox2);
+            this.groupBox1.Controls.Add(this.textBox1);
             this.groupBox1.Controls.Add(this.radioButton1);
             this.groupBox1.Controls.Add(this.Button1);
             this.groupBox1.Controls.Add(this.groupBox2);
-            this.groupBox1.Location = new System.Drawing.Point(12, 110);
+            this.groupBox1.Location = new System.Drawing.Point(12, 152);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(776, 163);
             this.groupBox1.TabIndex = 8;
@@ -229,7 +231,7 @@ namespace Arvontakone
             this.groupBox3.Controls.Add(this.groupBox4);
             this.groupBox3.Controls.Add(this.textBox3);
             this.groupBox3.Controls.Add(this.Button2);
-            this.groupBox3.Location = new System.Drawing.Point(12, 299);
+            this.groupBox3.Location = new System.Drawing.Point(12, 336);
             this.groupBox3.Name = "groupBox3";
             this.groupBox3.Size = new System.Drawing.Size(776, 137);
             this.groupBox3.TabIndex = 9;
@@ -297,19 +299,30 @@ namespace Arvontakone
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Arial", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(458, 43);
+            this.label2.Location = new System.Drawing.Point(491, 43);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(108, 23);
             this.label2.TabIndex = 10;
             this.label2.Text = "Voittaja on:";
             // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Arial", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(31, 126);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(731, 23);
+            this.label3.TabIndex = 10;
+            this.label3.Text = "Valitsen osallistujien nimen mukaan tai osallistujien määrän mukaan ja arvo voitt" +
+    "aja.\r\n";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(800, 500);
+            this.Controls.Add(this.label3);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.textBox1);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.groupBox3);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
@@ -352,6 +365,7 @@ namespace Arvontakone
         private System.Windows.Forms.TextBox textBox6;
         private System.Windows.Forms.RadioButton radioButton8;
         private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Label label3;
     }
 }
 

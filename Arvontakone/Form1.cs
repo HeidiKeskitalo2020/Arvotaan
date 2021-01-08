@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.IO;
+using System.Net;
 
 namespace Arvontakone
 {
@@ -53,37 +54,39 @@ namespace Arvontakone
                 }
             }
 
-            if (radioButton1.Checked)
+            else if (radioButton1.Checked)
             {
-                StreamReader sr = new StreamReader(@"C:\Arvonta\Arvonta.txt");
-                //StreamWriter writer = new StreamWriter(@"C:\Arvonta\Arvonta.txt");
-                //string name = sr.ReadLine();
+                var vinName = new WebClient().DownloadString("https://pastebin.com/raw/abWpS6yJ").Split('\n');
+                textBox3.Text = vinName[new Random().Next(0, vinName.Length)];
+                //StreamReader sr = new StreamReader(@"C:\Arvonta\Arvonta.txt");
+                ////StreamWriter writer = new StreamWriter(@"C:\Arvonta\Arvonta.txt");
+                ////string name = sr.ReadLine();
 
-                string filePath = @"C:\Arvonta\Arvonta.txt";
+                //string filePath = @"C:\Arvonta\Arvonta.txt";
 
-                List<string> lines = File.ReadAllLines(filePath).ToList();
+                //List<string> lines = File.ReadAllLines(filePath).ToList();
 
-                var line_number = 0;
+                //var line_number = 0;
 
-                foreach (var line in lines)
-                {
-                    line_number++;
+                //foreach (var line in lines)
+                //{
+                //    line_number++;
 
-                    string[] entries = line.Trim().Split('\n');
+                //    string[] entries = line.Trim().Split('\n');
 
-                    if (entries.Length == 1 && entries[0] == "")
-                    {
-                        continue;
-                    }
+                //    if (entries.Length == 1 && entries[0] == "")
+                //    {
+                //        continue;
+                //    }
 
-                    Random vinName = new Random();
+                //    Random vinName = new Random();
 
 
-                    //{
-                    //    string indexOpenfile = vinName.Next(OpenFile.Length);
-                    //    this.TextBox1.Text = OpenFile[indexOpenfile];
-                    //}
-                }
+                //    //{
+                //    //    string indexOpenfile = vinName.Next(OpenFile.Length);
+                //    //    this.TextBox1.Text = OpenFile[indexOpenfile];
+                //    //}
+                //}
             }
         }
 
