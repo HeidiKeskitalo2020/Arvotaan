@@ -39,25 +39,25 @@ namespace Arvontakone
                 int number = 0;
                 Random num = new Random();
                 int[] pick = new int[3];
-                //string n = OsallistujaMäärä.Text;
-                //int numerot = Convert.ToInt32(n);
+                string n = textBox2.Text;
+                int numerot = Convert.ToInt32(n);
 
                 for (int i = 0; i < pick.Length; i++)
                 {
-                    number = num.Next(1, 10);
+                    number = num.Next(1, numerot);
                     while (!(pick.Contains(number)))
                     {
                         pick[i] = number;
                     }
                     textBox3.Text = (number.ToString());
-                    //Tulos.Text = OsallistujaMäärä.Text;
+                    //textBox3.Text = textBox2.Text;
                 }
             }
 
             else if (radioButton1.Checked)
             {
-                var vinName = new WebClient().DownloadString("https://pastebin.com/raw/abWpS6yJ").Split('\n');
-                textBox3.Text = vinName[new Random().Next(0, vinName.Length)];
+                //var vinName = new WebClient().DownloadString("https://pastebin.com/raw/abWpS6yJ").Split('\n');
+                //textBox3.Text = vinName[new Random().Next(0, vinName.Length)];
                 //StreamReader sr = new StreamReader(@"C:\Arvonta\Arvonta.txt");
                 ////StreamWriter writer = new StreamWriter(@"C:\Arvonta\Arvonta.txt");
                 ////string name = sr.ReadLine();
@@ -66,33 +66,29 @@ namespace Arvontakone
 
                 //List<string> lines = File.ReadAllLines(filePath).ToList();
 
-                //var line_number = 0;
+                ////var line_number = 0;
 
-                //foreach (var line in lines)
+                ////foreach (var line in lines)
+                ////{
+                ////    line_number++;
+
+                ////    string[] entries = line.Trim().Split('\n');
+
+                ////    if (entries.Length == 1 && entries[0] == "")
+                ////    {
+                ////        continue;
+                ////    }
+
+                //Random vinName = new Random();
+
+
                 //{
-                //    line_number++;
-
-                //    string[] entries = line.Trim().Split('\n');
-
-                //    if (entries.Length == 1 && entries[0] == "")
-                //    {
-                //        continue;
-                //    }
-
-                //    Random vinName = new Random();
-
-
-                //    //{
-                //    //    string indexOpenfile = vinName.Next(OpenFile.Length);
-                //    //    this.TextBox1.Text = OpenFile[indexOpenfile];
-                //    //}
+                //    string indexOpenfile = vinName.Next(textBox1.Length);
+                //    this.textBox1.Text = textBox1[indexOpenfile];
                 //}
             }
         }
-
-        private void radioButton2_CheckedChanged(object sender, EventArgs e)
-        {
-
         }
     }
-}
+
+

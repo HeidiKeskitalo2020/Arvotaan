@@ -107,7 +107,7 @@ namespace Arvontakone
             this.radioButton2.TabStop = true;
             this.radioButton2.Text = "Osallistujien määrän mukaan";
             this.radioButton2.UseVisualStyleBackColor = true;
-            this.radioButton2.CheckedChanged += new System.EventHandler(this.radioButton2_CheckedChanged);
+            //this.radioButton2.CheckedChanged += new System.EventHandler(this.radioButton2_CheckedChanged);
             // 
             // textBox2
             // 
