@@ -2,8 +2,8 @@
 Arvotaan on yksinkertainen arvontakone, jossa arvotaan nimen tai osallistujamäärän mukaan
 ___
 Valitse ensin toinen vaihtoehdoista: nimien mukaan tai osallistujamäärän mukaan.
-Jos valitsit nimien mukaan, etsi tekstitiedosto, jossa nimet ovat alekkain.
-Jos valitsit osallistujamäärän mukaan, ilmoita osallistujien määrä suudussa.
+Jos valitsit nimien mukaan, etsi tekstitiedosto, jossa nimet ovat alekkain. Valittuasi tiedoston, nimilistasta näkyy osa pienessä ruudussa vasemmalla puolella.
+Jos valitsit osallistujamäärän mukaan, ilmoita osallistujien määrä ruudussa.
 Lopuksi suorita arvonta.
 ___
 
