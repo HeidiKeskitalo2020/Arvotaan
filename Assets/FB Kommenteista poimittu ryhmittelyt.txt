@@ -1,6 +1,6 @@
 Tässä on esimerkki suoraan Facebookin kommenteista kopioisusta tekstitedostosta:
 Eli maalaa kaikki konnentit ja kopioi tekstitedostoon ja tallenna .txt muodossa. 
-**Huomaa**, että mikäli olet itse kommentoinut vastauksia, myös ne näkyvät tällä listalla.
+Huomaa, että mikäli olet itse kommentoinut vastauksia, myös ne näkyvät tällä listalla.
 ________________________________________________________________________________
 Maija Meikäläinen
 Siellä toinen Ihanuus 😘
