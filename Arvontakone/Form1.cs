@@ -91,6 +91,11 @@ namespace Arvontakone
         {
             Process.Start("https://github.com/HeidiKeskitalo2020/Arvotaan/blob/master/Assets/Ig%20nimiryhmittely.txt");
         }
+
+        private void linkLabel4_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            Process.Start("https://github.com/HeidiKeskitalo2020/Arvotaan/blob/master/README.md");
+        }
     }
 }
 
