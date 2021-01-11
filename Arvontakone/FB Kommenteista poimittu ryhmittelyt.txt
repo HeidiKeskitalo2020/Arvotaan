@@ -1,0 +1,34 @@
+Tässä on esimerkki suoraan Facebookin kommenteista kopioisusta tekstitedostosta:
+Eli maalaa kaikki monnentit ja kopioi tekstitedostoon. Huomaa, että mikäli olet itse kommentoinut vastauksia, myös ne näkyvät tällä listalla.
+________________________________________________________________________________
+Maija Meikäläinen
+Siellä toinen Ihanuus 😘
+ · Vastaa · 2 pv
+Matti Mallikas
+ · Vastaa · 2 pv
+Elli Esimerkki
+Kiitos, niin sinäkin❣️🥰
+ · Vastaa · 2 pv
+Kaarina Kokeilija
+Kiitos, sinä olet myös ihana😘
+ · Vastaa · 2 pv
+
+_______________________________________________________________________________
+Ylläolevaan ryhmittelyyn täytyy kouitenkin lisätä välilyönnit, jotta ohjelma osaa jakaa ryhmittelyn ja arpoa henkilöitä. Esimerkki välilyäntien lisäämisestä on tässä:
+_______________________________________________________________________________
+
+Maija Meikäläinen
+Siellä toinen Ihanuus 😘
+ · Vastaa · 2 pv
+
+Matti Mallikas
+ · Vastaa · 2 pv
+
+Elli Esimerkki
+Kiitos, niin sinäkin❣️🥰
+ · Vastaa · 2 pv
+
+Kaarina Kokeilija
+Kiitos, sinä olet myös ihana😘
+ · Vastaa · 2 pv
+

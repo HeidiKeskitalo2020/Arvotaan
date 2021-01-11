@@ -64,10 +64,10 @@ namespace Arvontakone
             // textBox1
             // 
             this.textBox1.Enabled = false;
-            this.textBox1.Location = new System.Drawing.Point(580, 32);
+            this.textBox1.Location = new System.Drawing.Point(580, 25);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(170, 165);
+            this.textBox1.Size = new System.Drawing.Size(170, 175);
             this.textBox1.TabIndex = 0;
             // 
             // Button1
@@ -75,7 +75,7 @@ namespace Arvontakone
             this.Button1.BackColor = System.Drawing.Color.DeepPink;
             this.Button1.Font = new System.Drawing.Font("Arial", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Button1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.Button1.Location = new System.Drawing.Point(374, 22);
+            this.Button1.Location = new System.Drawing.Point(374, 25);
             this.Button1.Name = "Button1";
             this.Button1.Size = new System.Drawing.Size(167, 42);
             this.Button1.TabIndex = 1;
@@ -87,7 +87,7 @@ namespace Arvontakone
             // 
             this.radioButton1.AutoSize = true;
             this.radioButton1.ForeColor = System.Drawing.Color.DeepPink;
-            this.radioButton1.Location = new System.Drawing.Point(83, 33);
+            this.radioButton1.Location = new System.Drawing.Point(83, 36);
             this.radioButton1.Name = "radioButton1";
             this.radioButton1.Size = new System.Drawing.Size(229, 24);
             this.radioButton1.TabIndex = 2;
@@ -99,7 +99,7 @@ namespace Arvontakone
             // 
             this.radioButton2.AutoSize = true;
             this.radioButton2.ForeColor = System.Drawing.Color.DeepPink;
-            this.radioButton2.Location = new System.Drawing.Point(83, 171);
+            this.radioButton2.Location = new System.Drawing.Point(83, 176);
             this.radioButton2.Name = "radioButton2";
             this.radioButton2.Size = new System.Drawing.Size(237, 24);
             this.radioButton2.TabIndex = 3;
@@ -109,7 +109,7 @@ namespace Arvontakone
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(374, 171);
+            this.textBox2.Location = new System.Drawing.Point(374, 174);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(167, 26);
             this.textBox2.TabIndex = 4;
@@ -275,7 +275,7 @@ namespace Arvontakone
             // 
             this.radioButton3.AutoSize = true;
             this.radioButton3.ForeColor = System.Drawing.Color.DeepPink;
-            this.radioButton3.Location = new System.Drawing.Point(83, 99);
+            this.radioButton3.Location = new System.Drawing.Point(83, 110);
             this.radioButton3.Name = "radioButton3";
             this.radioButton3.Size = new System.Drawing.Size(266, 24);
             this.radioButton3.TabIndex = 5;
@@ -288,7 +288,7 @@ namespace Arvontakone
             this.button3.BackColor = System.Drawing.Color.DeepPink;
             this.button3.Font = new System.Drawing.Font("Arial", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button3.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.button3.Location = new System.Drawing.Point(374, 88);
+            this.button3.Location = new System.Drawing.Point(374, 99);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(167, 42);
             this.button3.TabIndex = 6;
