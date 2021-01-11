@@ -16,6 +16,6 @@ Jos valitsit **osallistujamäärän mukaan**, ilmoita osallistujien määrä ruu
 Lopuksi suorita arvonta.
 ___
 
-![Arvotaan](https://github.com/HeidiKeskitalo2020/Arvotaan/blob/master/Arvontakone/Arvotaan.png)
+![Arvotaan](https://github.com/HeidiKeskitalo2020/Arvotaan/blob/master/Assets/Arvotaan.png)
 Arvotaan
 
