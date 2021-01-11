@@ -5,5 +5,7 @@ Valitse ensin toinen vaihtoehdoista: nimien mukaan tai osallistujamäärän muka
 Jos valitsit nimien mukaan, etsi tekstitiedosto, jossa nimet ovat alekkain.
 Jos valitsit osallistujamäärän mukaan, ilmoita osallistujien määrä suudussa.
 Lopuksi suorita arvonta.
+___
 
+![Arvotaan](https://github.com/HeidiKeskitalo2020/Arvotaan/blob/master/Arvontakone/Arvotaan.png)Arvotaan
 
