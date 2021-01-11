@@ -51,6 +51,9 @@ namespace Arvontakone
             this.groupBox5 = new System.Windows.Forms.GroupBox();
             this.radioButton3 = new System.Windows.Forms.RadioButton();
             this.button3 = new System.Windows.Forms.Button();
+            this.linkLabel1 = new System.Windows.Forms.LinkLabel();
+            this.linkLabel2 = new System.Windows.Forms.LinkLabel();
+            this.linkLabel3 = new System.Windows.Forms.LinkLabel();
             this.groupBox1.SuspendLayout();
             this.groupBox3.SuspendLayout();
             this.groupBox4.SuspendLayout();
@@ -67,7 +70,7 @@ namespace Arvontakone
             this.textBox1.Location = new System.Drawing.Point(580, 25);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(170, 175);
+            this.textBox1.Size = new System.Drawing.Size(170, 184);
             this.textBox1.TabIndex = 0;
             // 
             // Button1
@@ -99,7 +102,7 @@ namespace Arvontakone
             // 
             this.radioButton2.AutoSize = true;
             this.radioButton2.ForeColor = System.Drawing.Color.DeepPink;
-            this.radioButton2.Location = new System.Drawing.Point(83, 176);
+            this.radioButton2.Location = new System.Drawing.Point(83, 185);
             this.radioButton2.Name = "radioButton2";
             this.radioButton2.Size = new System.Drawing.Size(237, 24);
             this.radioButton2.TabIndex = 3;
@@ -109,7 +112,7 @@ namespace Arvontakone
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(374, 174);
+            this.textBox2.Location = new System.Drawing.Point(374, 183);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(167, 26);
             this.textBox2.TabIndex = 4;
@@ -153,6 +156,9 @@ namespace Arvontakone
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.linkLabel3);
+            this.groupBox1.Controls.Add(this.linkLabel2);
+            this.groupBox1.Controls.Add(this.linkLabel1);
             this.groupBox1.Controls.Add(this.button3);
             this.groupBox1.Controls.Add(this.radioButton3);
             this.groupBox1.Controls.Add(this.radioButton2);
@@ -296,6 +302,42 @@ namespace Arvontakone
             this.button3.UseVisualStyleBackColor = false;
             this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
+            // linkLabel1
+            // 
+            this.linkLabel1.AutoSize = true;
+            this.linkLabel1.Font = new System.Drawing.Font("Arial Narrow", 7F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.linkLabel1.Location = new System.Drawing.Point(80, 63);
+            this.linkLabel1.Name = "linkLabel1";
+            this.linkLabel1.Size = new System.Drawing.Size(161, 17);
+            this.linkLabel1.TabIndex = 7;
+            this.linkLabel1.TabStop = true;
+            this.linkLabel1.Text = "Täältä löydät esimerkkiteidoston";
+            this.linkLabel1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel1_LinkClicked);
+            // 
+            // linkLabel2
+            // 
+            this.linkLabel2.AutoSize = true;
+            this.linkLabel2.Font = new System.Drawing.Font("Arial Narrow", 7F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.linkLabel2.Location = new System.Drawing.Point(83, 141);
+            this.linkLabel2.Name = "linkLabel2";
+            this.linkLabel2.Size = new System.Drawing.Size(137, 17);
+            this.linkLabel2.TabIndex = 8;
+            this.linkLabel2.TabStop = true;
+            this.linkLabel2.Text = "Täältä löytyy FB esimerkki";
+            this.linkLabel2.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel2_LinkClicked);
+            // 
+            // linkLabel3
+            // 
+            this.linkLabel3.AutoSize = true;
+            this.linkLabel3.Font = new System.Drawing.Font("Arial Narrow", 7F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.linkLabel3.Location = new System.Drawing.Point(240, 141);
+            this.linkLabel3.Name = "linkLabel3";
+            this.linkLabel3.Size = new System.Drawing.Size(109, 17);
+            this.linkLabel3.TabIndex = 9;
+            this.linkLabel3.TabStop = true;
+            this.linkLabel3.Text = "ja täältä IG esimerkki";
+            this.linkLabel3.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel3_LinkClicked);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
@@ -342,6 +384,9 @@ namespace Arvontakone
         private System.Windows.Forms.GroupBox groupBox5;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.RadioButton radioButton3;
+        private System.Windows.Forms.LinkLabel linkLabel1;
+        private System.Windows.Forms.LinkLabel linkLabel3;
+        private System.Windows.Forms.LinkLabel linkLabel2;
     }
 }
 

@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.IO;
 using System.Net;
+using System.Diagnostics;
 
 namespace Arvontakone
 {
@@ -74,6 +75,21 @@ namespace Arvontakone
             {
                 textBox1.Text = System.IO.File.ReadAllText(Ofd.FileName);
             }
+        }
+
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            Process.Start("https://github.com/HeidiKeskitalo2020/Arvotaan/blob/master/Assets/Osallistuminen%20nimien%20mukaan.txt");
+        }
+
+        private void linkLabel2_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            Process.Start("https://github.com/HeidiKeskitalo2020/Arvotaan/blob/master/Assets/FB%20Kommenteista%20poimittu%20ryhmittelyt.txt");
+        }
+
+        private void linkLabel3_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            Process.Start("https://github.com/HeidiKeskitalo2020/Arvotaan/blob/master/Assets/Ig%20nimiryhmittely.txt");
         }
     }
 }
