@@ -51,13 +51,30 @@ namespace Arvontakone
                 }
             }
 
-            else if (radioButton1.Checked)
+            if (radioButton3.Checked)
+            {
+                string list = textBox1.Text;
+                string[] vinName = list.Trim().Split(new string[] { "\r\n\r\n" },
+                    StringSplitOptions.RemoveEmptyEntries);
+                textBox3.Text = vinName[new Random().Next(0, vinName.Length)];
+            }
+
+            if (radioButton1.Checked)
             {
                 string list = textBox1.Text;
                 string[] vinName = list.Trim().Split('\n');
                 textBox3.Text = vinName[new Random().Next(0, vinName.Length)];
             }
-        }   
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Ofd.Filter = "*TXT|*.txt";
+            if (Ofd.ShowDialog() == DialogResult.OK)
+            {
+                textBox1.Text = System.IO.File.ReadAllText(Ofd.FileName);
+            }
+        }
     }
 }
 
